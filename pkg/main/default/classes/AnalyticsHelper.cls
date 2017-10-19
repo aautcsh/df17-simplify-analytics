@@ -6,7 +6,7 @@
  *
  * Nils Rosen <nr@qkom.de>
  * Dominic Ley <dl@qkom.de>
-/*
+ */
 
 public class AnalyticsHelper {
 	public static object parseField(object fieldData, String fieldName){
