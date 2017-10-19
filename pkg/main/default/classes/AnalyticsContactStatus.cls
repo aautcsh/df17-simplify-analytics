@@ -1,3 +1,13 @@
+/*
+ * Simplify data-driven processes
+ * Using the Einstein Analytics Apex SDK
+ *
+ * Dreamforce '17
+ *
+ * Nils Rosen <nr@qkom.de>
+ * Dominic Ley <dl@qkom.de>
+ */
+
 public class AnalyticsContactStatus {
     @InvocableMethod(label='Insert Accounts' description='Inserts the accounts specified and returns the IDs of the new accounts.')
     public static Boolean[] isActive(String[] srcIds){
