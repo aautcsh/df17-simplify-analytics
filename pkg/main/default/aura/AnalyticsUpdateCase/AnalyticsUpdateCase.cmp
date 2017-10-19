@@ -1,0 +1,3 @@
+<aura:component implements="flexipage:availableForRecordHome,force:hasRecordId" controller="AnalyticsConnector" access="global" >
+	<lightning:button label="Update Amount Account" onclick="{!c.queryAmount}"/>
+</aura:component>
