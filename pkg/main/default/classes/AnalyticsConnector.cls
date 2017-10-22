@@ -20,7 +20,7 @@ public class AnalyticsConnector{
     ConnectApi.LiteralJson result = Wave.QueryBuilder.load('0Fb0Y000000TQOzSAO','0Fc0Y000000FMcGSAW')
       .filter('\'AccountId\' == "' + String.valueOf(accountId) + '"')	
       .foreach(prn)
-      .build('q');
+      .execute('q');
 
     List<Object> ql = AnalyticsHelper.parseResponse(result.json);
     Decimal amount = (Decimal)AnalyticsHelper.parseField(ql[0],'sum_amount');
