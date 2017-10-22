@@ -9,12 +9,17 @@ Dreamforce '17 Breakout Session Resources
 
 ## Installation via Salesforce DX
 ```
-git clone https://github.com/aautcsh/df17-implify-analytics 
-sfdx force:auth:web:login -a df17-simplify-analytics
+$ git clone https://github.com/aautcsh/df17-implify-analytics 
+$ sfdx force:auth:web:login -a df17-simplify-analytics
+$ sfdx force:org:create -f config/project-scratch-def.json -a df17-simplify-analytics-scratch --setdefaultusername
+$ sfdx force:source:push
+$ sfdx force:org:open
 ```
 
-tbd: build scratch org/convert and deploy metadata
-
+### Deploy to Wave-enabled Developer Edition Org
+```
+$ tbd
+```
 
 ## Resources
 - Trailmix: https://goo.gl/2yH8jo
