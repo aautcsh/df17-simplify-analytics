@@ -16,12 +16,12 @@ tbd: build scratch org/convert and deploy metadata
 
 
 ## Resources
-- Trailmix: goo.gl/2yH8jo
+- Trailmix: https://goo.gl/2yH8jo
 - Unmanaged Package: tbd
 
-- Einstein Analytics Einstein Apex SDK: goo.gl/KLr2QU
-- Einstein Analytics-enabled Developer Edition: goo.gl/q9KWm9 
-- Salesforce DX: goo.gl/qB9JH4
+- Einstein Analytics Einstein Apex SDK: https://goo.gl/KLr2QU
+- Einstein Analytics-enabled Developer Edition: https://goo.gl/q9KWm9 
+- Salesforce DX: https://goo.gl/qB9JH4
 
 ## Description of Files and Directories
 - pkg/ : Main metadata directory
