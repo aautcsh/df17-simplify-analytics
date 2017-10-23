@@ -24,9 +24,8 @@ Clone this repository and authenticate to your Wave-enabled Developer Organizati
 ```
 $ git clone https://github.com/aautcsh/df17-simplify-analytics 
 $ sfdx force:auth:web:login -a _your_wave_dev_org_alias_
+  --> Login to your Wave-enabled Developer Organization and grant access to Salesforce DX
 ```
-
-Login to your Wave-enabled Developer Organization and grant access to Salesforce DX
 
 Convert the Salesforce DX project sources into Metadata API format
 
