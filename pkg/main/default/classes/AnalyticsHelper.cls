@@ -14,8 +14,8 @@ public class AnalyticsHelper{
   }
 
   public static List<Object> parseResponse(String response){
-    Map<String,Object> q = (Map<String,Object>)JSON.deserializeUntyped(response).get('results');
-    //q = (Map<String,Object>)q.get('results');
+    Map<String,Object> q = (Map<String,Object>)JSON.deserializeUntyped(response);
+    q = (Map<String,Object>)q.get('results');
     return (List<Object>)q.get('records');
   }
 }
