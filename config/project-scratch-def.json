@@ -1,8 +1,8 @@
 {
     "orgName": "df17-simplify-analytics",
     "edition": "Developer",
-    "features": ["API", "SalesWave","ServiceWave"],
+    "features": ["API"],
     "orgPreferences" : {
-        "enabled": ["S1DesktopEnabled","AnalyticsSharingEnable","IsForecastsEnabled"]
+        "enabled": ["S1DesktopEnabled"]
     }
 }
