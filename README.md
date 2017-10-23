@@ -11,7 +11,7 @@ Dreamforce '17 Breakout Session Resources
 
 You can either choose to install our managed package or to deploy the metadata from the source
 
-### Install Unmanages package
+### Install Unmanaged package
 
 ```
 ...tbd
