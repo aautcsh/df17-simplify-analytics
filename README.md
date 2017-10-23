@@ -22,7 +22,7 @@ You can either choose to install our managed package or to deploy the metadata f
 Clone this repository and authenticate to your Wave-enabled Developer Organization
 
 ```
-$ git clone https://github.com/aautcsh/df17-implify-analytics 
+$ git clone https://github.com/aautcsh/df17-simplify-analytics 
 $ sfdx force:auth:web:login -a _your_wave_dev_org_alias_
 ```
 
